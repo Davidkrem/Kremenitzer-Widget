@@ -187,7 +187,7 @@ async function buildWidget() {
   disclosure.appendChild(
     disclosureImage(
       'taboola-disclosure-img',
-      'https://popup.taboola.com/images/adchoice-logo.jpg'
+      'https://popup.taboola.com/images/adchoice-logo.jpgommit -m"'
     )
   );
 }

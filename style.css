@@ -1,0 +1,95 @@
+/* Reset */
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+  html, body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Unify Sans', helvetica, arial, sans-serif; /* Helvetica Widget Official Font */
+    font-size: 16px;
+    margin: 120px;
+    float: none !important;
+    overflow-x: hidden;
+  margin-top: 50px;
+
+}
+
+  .outer-container {
+    background-color: #f2f2f2;
+  padding: 10px;margin-top: 6px;}
+
+  .widget-main-div {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .recommendations-container {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 18px;}
+
+  .taboola-anchor>* {
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  .taboola-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 21px;
+    display: -webkit-box; /* Using webkit to limit line lines to 3 */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+     overflow: hidden;
+
+}
+
+  .taboola-branding {
+    color: grey;
+  font-size: 13px;font-weight: bold;}
+
+  .taboola-article>a {
+  text-decoration: none;
+  }
+
+  .widget-main-di>a {
+    color:black;
+    text-decoration: none;
+  }
+
+  .taboola-disclosure-img{
+    height: 12px;
+    width: 12px;
+  margin-left: 5px;
+  padding: 1px 0px 1px 0px;
+}
+
+  .widget-header-disclosure {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+   /padding: 1% 0;}
+
+  .disclosure  {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+  .likes {
+    font-weight:bold;
+  font-size: 18px;
+}
+/* Mobile Responsive Design */
+  @media(max-width: 400px) {
+    .recommendations-container {
+      grid-template-columns: 1fr;
+    }
+  }

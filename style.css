@@ -1,29 +1,28 @@
-/* Reset */
-* {
-	padding: 0;
-	margin: 0;
-	}
 
   html, body{
-    margin: 0;
-    padding: 0px;
     font-family: 'Unify Sans', helvetica, arial, sans-serif; /* Helvetica Widget Official Font */
     font-size: 16px;
-    margin: 185px;
     float: none !important;
     overflow-x: hidden;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
   .outer-container {
-    background-color: #f2f2f2;
-  padding: 10px;margin-top: 6px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 6px;
+  max-width: 700px;
+
   }
 
   .widget-main-div {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     padding: 0px;
+
   }
 
   .recommendations-container {
@@ -51,9 +50,10 @@
 
 }
 
-  .taboola-branding {
-    color: grey;
-  font-size: 13px;font-weight: bold;
+ .taboola-branding {
+   color: grey;
+  font-size: 13px;
+  font-weight: bold;
 }
 
   .taboola-article>a {
@@ -66,8 +66,8 @@
   }
 
   .taboola-disclosure-img{
-    height: 12px;
-    width: 12px;
+   height: 12px;
+  width: 12px;
   margin-left: 5px;
   padding: 1px 0px 1px 0px;
 }
@@ -83,16 +83,18 @@
     text-decoration: none;
     color: black;
     font-size: 12px;
-  letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
 }
 
+
   .likes {
-    font-weight:bold;
+  font-weight:bold;
   font-size: 18px;
 }
 /* Mobile Responsive Design */
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
     .recommendations-container {
       grid-template-columns: 1fr;
     }
+
   }

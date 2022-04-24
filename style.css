@@ -1,11 +1,12 @@
 
 
+
   html, body{
     font-family: 'Unify Sans', helvetica, arial, sans-serif; /* Helvetica Widget Official Font */
     font-size: 16px;
     float: none !important;
     overflow-x: hidden;
-    margin-top: 50px;
+    margin: 120px;
 }
 
 .body-content{
@@ -30,7 +31,7 @@ margin-bottom: 39px;padding-bottom: 16px;opacity: .9;}
 
 .kremenitzer {
   display: inline-block;
-  font-size: 33px;
+  font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   letter-spacing: 2.4px;
@@ -145,10 +146,11 @@ h1:hover {
     .recommendations-container {
       grid-template-columns: 1fr;
     }
+
   }
 
+
   .footer {
-  padding: 13px 0;
   position: fixed;
   left:0;
   bottom: 0;
@@ -193,14 +195,14 @@ h1:hover {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     font-size: 22px;
   }
 
   .social-icons li i {
     margin: 0;
-    line-height: 60px;
+    line-height: 40px;
     text-align: center;
   }
 
@@ -283,3 +285,4 @@ h1:hover {
         text-align: center;
     }
   }
+

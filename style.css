@@ -184,6 +184,10 @@ h1:hover {
     background-color: #007bb7;
   }
 
+a.icoTwitter:hover {
+    background-color: rgb(9, 141, 250);
+  }
+
   .social-network a.icoA3:hover i, .social-network a.icoInstagram:hover i, .social-network a.icoGithub:hover i, .social-network a.icoTwitter:hover i,  .social-network a.icoLinkedin:hover i {
     color: white;
   }

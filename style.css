@@ -1,20 +1,18 @@
 
-
-
   html, body{
     font-family: 'Unify Sans', helvetica, arial, sans-serif; /* Helvetica Widget Official Font */
     font-size: 16px;
     float: none !important;
     overflow-x: hidden;
-    margin: 10px;
+    margin: -11px;
 }
 
 .body-content{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-botom: 150px;
+margin-top: 125px;
+margin-bottom: 126px;
 }
 
 .outer-kremenitzer {
@@ -28,7 +26,10 @@
   padding: 1rem 0;
   color: #fff;
   text-align: center;
-margin-bottom: 39px;padding-bottom: 16px;opacity: .9;}
+margin-bottom: 39px;
+  padding-bottom: 16px;
+  opacity: .9;
+}
 
 .kremenitzer {
   display: inline-block;
@@ -64,7 +65,7 @@ h1:hover {
   .outer-container {
   background-color: #f2f2f2;
   padding: 10px;
-  margin-top: 75px;
+  margin-top: 6px;
   max-width: 700px;
 
   }
@@ -98,9 +99,7 @@ h1:hover {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
      overflow: hidden;
-
 }
-
  .taboola-branding {
    color: grey;
   font-size: 13px;
@@ -137,7 +136,6 @@ h1:hover {
     letter-spacing: 0.2px;
 }
 
-
   .likes {
   font-weight:bold;
   font-size: 18px;
@@ -148,11 +146,10 @@ h1:hover {
       grid-template-columns: 1fr;
     }
     body {
-      margin: 0;
+      margin: -10px 16px 10px 16px;
     }
 
   }
-
 
   .footer {
   position: fixed;
@@ -160,7 +157,7 @@ h1:hover {
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 134px;
   background-color: #054264;
     padding: 6px;
 }
@@ -294,6 +291,4 @@ a.icoTwitter:hover {
         text-align: center;
     }
   }
-
-
 
